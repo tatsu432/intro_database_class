@@ -1,0 +1,5 @@
+mysql --login-path=local -p --enable-local-infile
+
+use practice;
+
+SET GLOBAL local_infile=on;
